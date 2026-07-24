@@ -34,13 +34,14 @@ header {
 nav {
     background: #1d4f27;
     padding: 0.8rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 1rem;
 }
 
 nav a:hover {
@@ -58,11 +59,29 @@ section:last-of-type {
     border-bottom: none;
 }
 
-article {
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+#servicios article {
     background: #f0f9f0;
     padding: 1rem;
-    margin-bottom: 1rem;
     border-radius: 6px;
+    margin: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 form div {
@@ -102,4 +121,20 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    #servicios {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 1.5rem 1rem 2rem;
+    }
 }
