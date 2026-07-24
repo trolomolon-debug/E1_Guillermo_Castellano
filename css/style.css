@@ -14,25 +14,25 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    color: #1d4f27;
+    color: #1A3A6B;
     margin-top: 0;
 }
 
 h3 {
     font-size: 1.3rem;
-    color: #1d4f27;
+    color: #1A3A6B;
     margin-top: 0;
 }
 
 header {
-    background: #2c7a3a;
+    background: #4A90D9;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
 }
 
 nav {
-    background: #1d4f27;
+    background: #1A3A6B;
     padding: 0.8rem;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@ section:last-of-type {
 }
 
 #servicios article {
-    background: #f0f9f0;
+    background: #f0f4f9;
     padding: 1rem;
     border-radius: 6px;
     margin: 0;
@@ -103,7 +103,7 @@ input, textarea {
 }
 
 button {
-    background: #2c7a3a;
+    background: #4A90D9;
     color: #fff;
     border: none;
     padding: 0.7rem 1.5rem;
@@ -112,11 +112,11 @@ button {
 }
 
 button:hover {
-    background: #1d4f27;
+    background: #1A3A6B;
 }
 
 footer {
-    background: #1d4f27;
+    background: #1A3A6B;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
