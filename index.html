@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria Huellas</title>
+    <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
-    
+    <header>
+        <h1>Veterinaria Huellas</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="servicios">Servicios</a>
+        <a href="contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a Veterinaria Huellas</h2>
+            <p>Cuidamos de tu mascota como si fuera la nuestra.</p>
+        </section>
+        <section id="servicios">
+            <article>
+            <h3>Consultas generales</h3>
+            <p>Revisión completa de la salud de tu mascota.</p>
+            </article>
+            <article>
+                <h3>Vacunación</h3>
+                <p>Plan de vacunación al día para perros y gatos.</p>
+                </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                </form>
+                </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Veterinaria Huellas. Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
